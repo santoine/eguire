@@ -60,14 +60,3 @@ def printShow(show, *showElements):
 """ Selects the shows still running"""
 def runningShows(shows=loadShows()):
 	return [show for show in shows if show[end_date] == EMPTY_END_DATE]
-
-# downloadShowsToCSV()
-# printShow(find(".*X-Files"))
-shows = loadShows()
-printShow(shows)
-# for show in runningShows() : 
-# 	# printShow(show)
-# 	printShow(show, title, tvrage)
-
-
-# print episode.find(find(".*X-Files"))
